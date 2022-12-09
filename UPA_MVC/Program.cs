@@ -1,5 +1,4 @@
 using Domain;
-using Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,7 +8,7 @@ builder.Services.AddControllersWithViews();
 
 string connection = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connection));
-builder.Services.AddTransient<TestService>();
+//builder.Services.AddTransient<TestService>();
 
 
 var app = builder.Build();

@@ -3,13 +3,17 @@ using System.Diagnostics;
 using UPA_MVC.Models;
 
 namespace UPA_MVC.Controllers;
-public class HomeController : Controller
+public class AccountController : Controller
 {
-
-    public HomeController()
+    public AccountController()
     {
+        
     }
 
+    public IActionResult Login()
+    {
+        return View();
+    }
 
     public IActionResult Index()
     {

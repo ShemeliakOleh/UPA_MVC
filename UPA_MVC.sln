@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPA_MVC", "UPA_MVC\UPA_MVC.csproj", "{3A3D8730-CE24-42F3-A9CC-66461AABA39A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UPA_MVC", "UPA_MVC\UPA_MVC.csproj", "{3A3D8730-CE24-42F3-A9CC-66461AABA39A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{33D8F92D-F8FF-48CB-B667-15BF953AD34A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{33D8F92D-F8FF-48CB-B667-15BF953AD34A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{8EED4FC6-230E-4C76-A7C8-7B4312372E39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logic", "Infrastructure\Logic.csproj", "{8EED4FC6-230E-4C76-A7C8-7B4312372E39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
