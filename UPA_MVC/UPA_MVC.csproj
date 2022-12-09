@@ -7,22 +7,24 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Views\Assignment\Create.html" />
+    <Compile Remove="Views\Components\**" />
+    <Content Remove="Views\Components\**" />
+    <EmbeddedResource Remove="Views\Components\**" />
+    <None Remove="Views\Components\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Views\BusinessTrip\Create.html" />
     <None Remove="Views\Vacation\Create.html" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Views\Assignment\Create.html" />
+    <Content Include="Views\BusinessTrip\Create.html" />
     <Content Include="Views\Vacation\Create.html" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Infrastructure\Logic.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="ViewModels\" />
-    <Folder Include="Views\Components\" />
   </ItemGroup>
 
 </Project>

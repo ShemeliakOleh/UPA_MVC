@@ -42,7 +42,7 @@ namespace Domain.Models
 
         [Required]
         [MaxLength(50)]
-        public byte[] PasswordHash { get; set; }
+        public string PasswordHash { get; set; }
 
         [Required]
         [StringLength(50)]

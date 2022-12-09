@@ -5,6 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Application.Services;
-public interface IBusinessTripService
+public interface IProfileService
 {
 }
